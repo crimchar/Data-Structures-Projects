@@ -1,0 +1,346 @@
+Inserting 1 -> 0
+Capacity: 4 Size: 1 Load Factor: 0.25
+
+
+0   null
+1   1   ->  0
+2   null
+3   null
+
+
+Inserting 5 -> 2
+Capacity: 4 Size: 2 Load Factor: 0.5
+
+
+0   null
+1   1   ->  0
+2   5   ->  2
+3   null
+
+
+Inserting 9 -> 4
+Capacity: 8 Size: 3 Load Factor: 0.375
+
+
+0   null
+1   9   ->  4
+2   1   ->  0
+3   null
+4   null
+5   5   ->  2
+6   null
+7   null
+
+
+Inserting 13 -> 6
+Capacity: 8 Size: 4 Load Factor: 0.5
+
+
+0   null
+1   9   ->  4
+2   1   ->  0
+3   null
+4   null
+5   5   ->  2
+6   13  ->  6
+7   null
+
+
+Inserting 17 -> 8
+Capacity: 16 Size: 5 Load Factor: 0.3125
+
+
+0   null
+1   1   ->  0
+2   17  ->  8
+3   null
+4   null
+5   5   ->  2
+6   null
+7   null
+8   null
+9   9   ->  4
+10  null
+11  null
+12  null
+13  13  ->  6
+14  null
+15  null
+
+
+Inserting 21 -> 10
+Capacity: 16 Size: 6 Load Factor: 0.375
+
+
+0   null
+1   1   ->  0
+2   17  ->  8
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   9   ->  4
+10  null
+11  null
+12  null
+13  13  ->  6
+14  null
+15  null
+
+
+Inserting 25 -> 12
+Capacity: 16 Size: 7 Load Factor: 0.4375
+
+
+0   null
+1   1   ->  0
+2   17  ->  8
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   9   ->  4
+10  25  ->  12
+11  null
+12  null
+13  13  ->  6
+14  null
+15  null
+
+
+Inserting 29 -> 14
+Capacity: 16 Size: 8 Load Factor: 0.5
+
+
+0   null
+1   1   ->  0
+2   17  ->  8
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   9   ->  4
+10  25  ->  12
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+Removing 1
+Capacity: 16 Size: 7 Load Factor: 0.4375
+
+
+0   null
+1   TOMBSTONE
+2   17  ->  8
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   9   ->  4
+10  25  ->  12
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+Removing 9
+Capacity: 16 Size: 6 Load Factor: 0.375
+
+
+0   null
+1   TOMBSTONE
+2   17  ->  8
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   TOMBSTONE
+10  25  ->  12
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+Removing 17
+Capacity: 16 Size: 5 Load Factor: 0.3125
+
+
+0   null
+1   TOMBSTONE
+2   TOMBSTONE
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   TOMBSTONE
+10  25  ->  12
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+Removing 25
+Capacity: 16 Size: 4 Load Factor: 0.25
+
+
+0   null
+1   TOMBSTONE
+2   TOMBSTONE
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   TOMBSTONE
+10  TOMBSTONE
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+found 13->6
+Capacity: 16 Size: 4 Load Factor: 0.25
+
+
+0   null
+1   TOMBSTONE
+2   TOMBSTONE
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   TOMBSTONE
+10  TOMBSTONE
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+Didn't find 17
+Capacity: 16 Size: 4 Load Factor: 0.25
+
+
+0   null
+1   TOMBSTONE
+2   TOMBSTONE
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   TOMBSTONE
+10  TOMBSTONE
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+found 21->10
+Capacity: 16 Size: 4 Load Factor: 0.25
+
+
+0   null
+1   TOMBSTONE
+2   TOMBSTONE
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   TOMBSTONE
+10  TOMBSTONE
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+Didn't find 25
+Capacity: 16 Size: 4 Load Factor: 0.25
+
+
+0   null
+1   TOMBSTONE
+2   TOMBSTONE
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   TOMBSTONE
+10  TOMBSTONE
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+found 29->14
+Capacity: 16 Size: 4 Load Factor: 0.25
+
+
+0   null
+1   TOMBSTONE
+2   TOMBSTONE
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
+8   null
+9   TOMBSTONE
+10  TOMBSTONE
+11  null
+12  null
+13  13  ->  6
+14  29  ->  14
+15  null
+
+
+Removing 29
+Capacity: 8 Size: 3 Load Factor: 0.375
+
+
+0   13  ->  6
+1   null
+2   null
+3   null
+4   null
+5   5   ->  2
+6   21  ->  10
+7   null
